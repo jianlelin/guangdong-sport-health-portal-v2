@@ -1,0 +1,42 @@
+window.ASSOCIATION_CONTENT = {
+  name: '广东省体育运动与健康协会',
+  introduction: '科学运动知识的宣传和推广、服务',
+  categories: {all:'全部资讯',association:'协会动态',notice:'通知公告',training:'培训活动',academic:'学术交流',lecture:'科普讲堂'},
+  images: {
+    logo:{file:'source01.png',width:1654,height:1308,x:535,y:27,w:96,h:96,alt:'广东省体育运动与健康协会标志'},
+    teaching:{file:'source01.png',width:1654,height:1308,x:535,y:455,w:588,h:251,alt:'2025年广东省高校体育教师教学水平提升培训班合影'},
+    forum:{file:'source01.png',width:1654,height:1308,x:535,y:894,w:588,h:250,alt:'2024年广东省研究生学术论坛运动人体科学分论坛现场展板'},
+    pickleball:{file:'source02.png',width:1206,height:907,x:208,y:93,w:588,h:251,alt:'匹克球运动与健康专业委员会成立合影'},
+    council:{file:'source02.png',width:1206,height:907,x:208,y:532,w:588,h:251,alt:'协会第二届理事会相关活动合影'},
+    research:{file:'source03.png',width:1360,height:1009,x:339,y:166,w:588,h:250,alt:'2024年第五期高校体育教师科研能力提升培训班合影'},
+    election:{file:'source03.png',width:1360,height:1009,x:339,y:604,w:588,h:251,alt:'协会第二届理事会换届选举暨第二届第一次会员大会活动展板'},
+    taichi:{file:'source04.png',width:1378,height:1098,x:274,y:148,w:288,h:384,alt:'科学运动健康你我系列讲座：太极与养生海报'},
+    medicine:{file:'source04.png',width:1378,height:1098,x:574,y:148,w:288,h:384,alt:'科学运动健康你我系列讲座：运动是良医现状与未来海报'},
+    lectures:{file:'source05.png',width:1116,height:1194,x:208,y:69,w:588,h:251,alt:'协会系列学术讲座活动第二场展板'},
+    lectureSeries:{file:'source05.png',width:1116,height:1194,x:208,y:508,w:588,h:251,alt:'协会系列学术讲座活动展板'},
+    science:{file:'source06.png',width:1158,height:1137,x:232,y:96,w:588,h:250,alt:'科学运动健康你我系列讲座与服务活动展板'},
+    annual:{file:'source08.png',width:943,height:1224,x:147,y:556,w:588,h:250,alt:'协会成立一周年会员大会相关合影'},
+    workshop:{file:'source09.png',width:967,height:1212,x:207,y:427,w:588,h:250,alt:'第一期家居生活运动化工作坊讲座现场'},
+    notice:{file:'source09.png',width:967,height:1212,x:207,y:865,w:588,h:250,alt:'协会公众号重要通知封面'}
+  },
+  articles:[
+    {id:'teaching-2025',category:'training',date:'2025-11-06',title:'2025年广东省高校体育教师教学水平提升培训班（第8期）',image:'teaching',summary:'第8期高校体育教师教学水平提升培训班活动资料与合影。',originalTitle:'2025年广东省高校体育教师教学水平提升培训班（第8期）',facts:[['活动类型','高校体育教师培训'],['期次','第8期'],['年份','2025年']]},
+    {id:'forum-2024',category:'academic',date:'2024-08-29',title:'2024年广东省研究生学术论坛 · 运动人体科学分论坛',image:'forum',summary:'协会共同承办的研究生学术论坛相关资料。展板显示活动时间为2024年8月24日至25日，地点为中国广州。',originalTitle:'协会共同承办的2024年广东省研究生学术论坛-运动人体…',facts:[['活动时间','2024年8月24日至25日'],['活动地点','中国 · 广州'],['交流方向','运动人体科学']]},
+    {id:'pickleball-2024',category:'association',date:'2024-06-30',title:'匹克球运动与健康专业委员会成立',image:'pickleball',summary:'协会匹克球运动与健康专业委员会成立活动合影。',originalTitle:'广东省体育运动与健康协会匹克球运动与健康专业委员…',facts:[['组织名称','匹克球运动与健康专业委员会'],['资料类型','成立活动合影']]},
+    {id:'council-2024',category:'association',date:'2024-06-24',title:'协会第二届第一次理事会相关活动',image:'council',summary:'协会第二届第一次理事会相关活动资料。',originalTitle:'广东省体育运动与健康协会第二届第一次理事会暨常务…',facts:[['届次','第二届'],['资料类型','协会会议活动']]},
+    {id:'research-2024',category:'training',date:'2024-05-30',title:'2024年高校体育教师科研能力提升培训班（第五期）',image:'research',summary:'第五期广东省高校体育教师科研能力提升培训班活动合影与资料。',originalTitle:'2024年（第五期）广东省高校体育教师科研能力提升培…',facts:[['活动类型','高校体育教师培训'],['培训方向','科研能力提升'],['期次','第五期']]},
+    {id:'election-2024',category:'association',date:'2024-05-29',title:'第二届理事会换届选举暨第二届第一次会员大会',image:'election',summary:'协会第二届理事会换届选举暨第二届第一次会员大会相关资料。活动展板所示时间为2023年12月9日，公众号发布日期为2024年5月29日。',originalTitle:'广东省体育运动与健康协会第二届理事会换届选举暨第…',facts:[['展板活动日期','2023年12月9日'],['公众号发布日期','2024年5月29日']]},
+    {id:'lecture-second',category:'lecture',date:'2022-11-14',title:'系列学术讲座活动第二场',image:'lectures',summary:'协会系列学术讲座活动第二场的公众号资料。',originalTitle:'广东省体育运动与健康协会系列学术讲座活动第二场…',facts:[['系列','协会系列学术讲座'],['场次','第二场']]},
+    {id:'lecture-series',category:'lecture',date:'2022-09-22',title:'协会系列学术讲座活动',image:'lectureSeries',summary:'协会系列学术讲座活动的公众号特讯资料。',originalTitle:'特讯｜广东省体育运动与健康协会系列学术讲座活动如期…',facts:[['资料类型','学术讲座特讯']]},
+    {id:'science-health',category:'lecture',date:'2022-09-10',title:'“科学运动·健康你我”系列讲座与服务活动',image:'science',summary:'协会“科学运动·健康你我”系列讲座与服务活动资料。',originalTitle:'广东省体育运动与健康协会｜“科学运动·健康你我”系列讲…',facts:[['活动主题','科学运动 · 健康你我'],['活动形式','系列讲座与服务活动']]},
+    {id:'study-recruitment',category:'notice',date:'2018-06-10',title:'运动健康分子效应研究团队招募资料',summary:'运动健康分子效应研究团队招募的历史资料，截图未包含完整招募条件和正文。',originalTitle:'运动健康分子效应研究团队招募不同环境温度与基础代…',historical:true},
+    {id:'training-notice-2018',category:'notice',date:'2018-04-13',title:'第四期高校体育教师科研能力提升培训资料',summary:'第四期广东省高校体育教师科研能力提升培训相关历史通知。',originalTitle:'关于举办“第四期广东省高校体育教师科研能力提升培训…',historical:true},
+    {id:'research-notice-2018',category:'notice',date:'2018-03-06',title:'2018年协会资助研究课题相关通知',summary:'2018年协会资助研究课题的历史通知资料。',originalTitle:'关于2018年广东省体育运动与健康协会资助研究课题立…',historical:true},
+    {id:'project-close-2017',category:'notice',date:'2017-12-29',title:'广东省体育局科研立项课题结题评审通知',summary:'公众号转载的广东省体育局科研立项课题结题评审工作历史通知。',originalTitle:'广东省体育局关于开展科研立项课题结题评审工作的通知',historical:true},
+    {id:'annual-2017',category:'association',date:'2017-12-20',title:'协会成立1周年会员大会',image:'annual',summary:'协会成立1周年会员大会相关活动合影与资料。',originalTitle:'广东省体育运动与健康协会成立1周年会员大会暨运动与…'},
+    {id:'workshop-2017',category:'lecture',date:'2017-11-20',title:'讲座回顾：第一期家居生活运动化工作坊',image:'workshop',summary:'第一期家居生活运动化工作坊的讲座回顾资料。',originalTitle:'讲座回顾｜第一期家居生活运动化工作坊'},
+    {id:'funding-2018',category:'notice',date:'2017-11-03',title:'2018年度协会资助研究相关通知',image:'notice',summary:'关于2018年度协会资助研究的历史通知，完整申报要求尚未提供。',originalTitle:'关于申报2018年度广东省体育运动与健康协会资助研究…',historical:true},
+    {id:'taichi',category:'lecture',date:null,title:'科普讲堂：太极与养生',image:'taichi',summary:'“科学运动·健康你我”系列讲座的太极与养生主题海报。现有截图未显示完整年份。',originalTitle:'“科学运动·健康你我”系列讲座与服务活动',facts:[['讲座题目','太极与养生'],['海报时间','12月1日（年份未显示）']]},
+    {id:'exercise-medicine',category:'lecture',date:null,title:'科普讲堂：“运动是良医”现状与未来',image:'medicine',summary:'“科学运动·健康你我”系列讲座的“运动是良医”主题海报。现有截图未显示完整年份。',originalTitle:'“科学运动·健康你我”系列讲座与服务活动',facts:[['讲座题目','“运动是良医”现状与未来'],['海报时间','11月9日（年份未显示）']]}
+  ]
+};
